@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.semaforo {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+
+.coluna {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.luz {
+  width: 60px;
+  height: 60px;
+  background-color: #555;
+  border-radius: 50%;
+  margin: 10px auto;
+  transition: background-color 0.3s;
+}
+
+.vermelho.ativo {
+  background-color: red;
+}
+
+.amarelo.ativo {
+  background-color: yellow;
+}
+
+.verde.ativo {
+  background-color: green;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+
+.botoes button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.log {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  height: 150px;
+  overflow-y: auto;
+}
